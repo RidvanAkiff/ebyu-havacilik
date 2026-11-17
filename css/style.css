@@ -812,6 +812,19 @@ html:has(dialog[open]) { overflow: hidden; }
 .footer__brand strong { display: block; font-family: var(--font-display); font-weight: 700; font-size: 16px; }
 .footer__brand span { font-size: 13.5px; color: var(--muted); }
 .footer__note { font-size: 13px; color: #8da2c2; max-width: 56ch; justify-self: end; }
+.footer__bottom {
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+.footer__credit {
+  font-size: 12.5px;
+  letter-spacing: .03em;
+  color: #8da2c2;
+}
+.footer__credit strong { color: #d3def0; font-weight: 600; }
+.footer__credit span { color: var(--gold-300); font-weight: 700; }
 
 /* =========================================================
    GİRİŞ ANİMASYONU (JS yoksa içerik görünür kalır)
